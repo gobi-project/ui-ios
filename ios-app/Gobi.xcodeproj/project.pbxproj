@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930B6E05183B72BD0092DA0E /* GOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930B6E04183B72BD0092DA0E /* GOLoginViewController.m */; };
+		931CCA8918D0E29700166212 /* GORuleConditionAssociationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 931CCA8818D0E29700166212 /* GORuleConditionAssociationObject.m */; };
+		931CCA8C18D0E46300166212 /* GORuleStateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 931CCA8B18D0E46300166212 /* GORuleStateObject.m */; };
+		931CCA8F18D0EF0E00166212 /* GOResourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 931CCA8E18D0EF0E00166212 /* GOResourceObject.m */; };
+		931CCA9318D130E500166212 /* GORuleSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 931CCA9218D130E500166212 /* GORuleSettingsTableViewCell.m */; };
+		933BE829183EA6C9003A087F /* GODeviceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 933BE828183EA6C9003A087F /* GODeviceObject.m */; };
+		934A2FDE19226D3A007CDECB /* GOLaunch-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 934A2FDC19226D3A007CDECB /* GOLaunch-568h@2x.png */; };
+		934BBCE918893F9A001E516C /* GOGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BBCE818893F9A001E516C /* GOGroupListViewController.m */; };
+		934BBCEB1889D698001E516C /* GOGroupListSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 934BBCEA1889D698001E516C /* GOGroupListSectionHeader.xib */; };
+		935418EC18B16071009104E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935418EB18B16071009104E6 /* AVFoundation.framework */; };
+		935418F018B1625F009104E6 /* GOAddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935418EF18B1625F009104E6 /* GOAddDeviceViewController.m */; };
+		93545FA6187B5A01009FC35D /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 93545FA4187B5A01009FC35D /* logout.png */; };
+		93545FB1187B5AC8009FC35D /* device-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93545FA7187B5AC8009FC35D /* device-icon.png */; };
+		93545FB2187B5AC8009FC35D /* device-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93545FA8187B5AC8009FC35D /* device-icon@2x.png */; };
+		93545FB5187B5AC8009FC35D /* settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93545FAB187B5AC8009FC35D /* settings-icon.png */; };
+		936F3344187F4E31004CFB6E /* GODeviceListSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 936F3343187F4E31004CFB6E /* GODeviceListSectionHeader.xib */; };
+		9371D36518350A4F0041E88C /* GOMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371D36418350A4F0041E88C /* GOMenuCell.m */; };
+		9371D36B18351A820041E88C /* MenuTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9371D36A18351A820041E88C /* MenuTableViewHeader.xib */; };
+		9371D37018351CCA0041E88C /* GOTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371D36F18351CCA0041E88C /* GOTableViewHeader.m */; };
+		93770DFC182BE93500675091 /* GOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93770DFB182BE93500675091 /* GOSettingsViewController.m */; };
+		937D730C19194D9600A08908 /* GOStartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937D730B19194D9600A08908 /* GOStartUpViewController.m */; };
+		93930AEE18520A95001264CA /* GODeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93930AED18520A95001264CA /* GODeviceDetailViewController.m */; };
+		93930AF118520AA9001264CA /* GOSensorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93930AF018520AA9001264CA /* GOSensorDetailViewController.m */; };
+		93A51EB2188D95A700FA3471 /* GOGroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A51EB1188D95A700FA3471 /* GOGroupObject.m */; };
+		93A51EB5188DC3A700FA3471 /* GORuleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A51EB4188DC3A700FA3471 /* GORuleObject.m */; };
+		93BFFFBE1829195E00F2AC8A /* GOMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BFFFBD1829195E00F2AC8A /* GOMainViewController.m */; };
+		93BFFFC218291D4400F2AC8A /* GODeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BFFFC118291D4400F2AC8A /* GODeviceListViewController.m */; };
+		93BFFFC618291D8500F2AC8A /* GOTagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BFFFC518291D8400F2AC8A /* GOTagListViewController.m */; };
+		93C49F3118CE3F2200300FA2 /* GOMeasurementObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C49F3018CE3F2200300FA2 /* GOMeasurementObject.m */; };
+		93C635DF181A5CEE00AD2B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C635DE181A5CEE00AD2B00 /* Foundation.framework */; };
+		93C635E1181A5CEE00AD2B00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C635E0181A5CEE00AD2B00 /* CoreGraphics.framework */; };
+		93C635E3181A5CEE00AD2B00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C635E2181A5CEE00AD2B00 /* UIKit.framework */; };
+		93C635E9181A5CEE00AD2B00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93C635E7181A5CEE00AD2B00 /* InfoPlist.strings */; };
+		93C635EB181A5CEE00AD2B00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C635EA181A5CEE00AD2B00 /* main.m */; };
+		93C635EF181A5CEE00AD2B00 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C635EE181A5CEE00AD2B00 /* GOAppDelegate.m */; };
+		93C635F2181A5CEE00AD2B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C635F0181A5CEE00AD2B00 /* Main.storyboard */; };
+		93C635F7181A5CEF00AD2B00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C635F6181A5CEF00AD2B00 /* Images.xcassets */; };
+		93C635FE181A5CEF00AD2B00 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C635FD181A5CEF00AD2B00 /* XCTest.framework */; };
+		93C635FF181A5CEF00AD2B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C635DE181A5CEE00AD2B00 /* Foundation.framework */; };
+		93C63600181A5CEF00AD2B00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C635E2181A5CEE00AD2B00 /* UIKit.framework */; };
+		93C63608181A5CEF00AD2B00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93C63606181A5CEF00AD2B00 /* InfoPlist.strings */; };
+		93C6360A181A5CEF00AD2B00 /* GobiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C63609181A5CEF00AD2B00 /* GobiTests.m */; };
+		93CDE8F718AC22BB004EBD8E /* GORuleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDE8F618AC22BB004EBD8E /* GORuleListViewController.m */; };
+		93CDE8FA18AC2430004EBD8E /* GORuleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDE8F918AC2430004EBD8E /* GORuleEditViewController.m */; };
+		93CDE8FD18AC2754004EBD8E /* GORuleStateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDE8FC18AC2754004EBD8E /* GORuleStateListViewController.m */; };
+		93CDE90118AC28C3004EBD8E /* GORuleStateEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDE90018AC28C3004EBD8E /* GORuleStateEditViewController.m */; };
+		93E5DCD418B19926000A8800 /* GOGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5DCD318B19926000A8800 /* GOGraphView.m */; };
+		93F00B39184783A300C5182E /* GOCustomObjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F00B38184783A300C5182E /* GOCustomObjectCell.m */; };
+		93F00B3C184789C400C5182E /* GOUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F00B3B184789C400C5182E /* GOUserObject.m */; };
+		93F2A386189B0A7100DE10AB /* GOHeaderTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F2A385189B0A7100DE10AB /* GOHeaderTextCell.m */; };
+		93F2EAFA1899C80D00788FD1 /* GOGroupEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F2EAF91899C80D00788FD1 /* GOGroupEditViewController.m */; };
+		93F2EAFD1899C83400788FD1 /* GOResourceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F2EAFC1899C83400788FD1 /* GOResourceListViewController.m */; };
+		93F5283A194A22850001C58B /* GONotificationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F52839194A22850001C58B /* GONotificationObject.m */; };
+		93F7D72A1830F9AC00C8B6CA /* GOWebservice.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7D7291830F9AC00C8B6CA /* GOWebservice.m */; };
+		93F7D72D1831046500C8B6CA /* GOJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7D72C1831046500C8B6CA /* GOJSONParser.m */; };
+		B40C10911907F4E600FC7F8F /* rule-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40C108F1907F4E600FC7F8F /* rule-icon.png */; };
+		B40C10921907F4E600FC7F8F /* rule-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B40C10901907F4E600FC7F8F /* rule-icon@2x.png */; };
+		B40C10951907F5D600FC7F8F /* group-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B40C10931907F5D600FC7F8F /* group-icon.png */; };
+		B40C10961907F5D600FC7F8F /* group-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B40C10941907F5D600FC7F8F /* group-icon@2x.png */; };
+		B41777C0189BDC910052119A /* logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777BF189BDC910052119A /* logout@2x.png */; };
+		B41777C3189BDCD20052119A /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777C1189BDCD20052119A /* menu-icon.png */; };
+		B41777C4189BDCD20052119A /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777C2189BDCD20052119A /* menu-icon@2x.png */; };
+		B41777C6189BDD090052119A /* settings-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777C5189BDD090052119A /* settings-icon@2x.png */; };
+		B41777CE189BDD3C0052119A /* tag_black_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777C7189BDD3C0052119A /* tag_black_selected.png */; };
+		B41777CF189BDD3C0052119A /* tag_black.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777C8189BDD3C0052119A /* tag_black.png */; };
+		B41777D0189BDD3C0052119A /* tag_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777C9189BDD3C0052119A /* tag_black@2x.png */; };
+		B41777D1189BDD3C0052119A /* tag_blue_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777CA189BDD3C0052119A /* tag_blue_selected.png */; };
+		B41777D2189BDD3C0052119A /* tag_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777CB189BDD3C0052119A /* tag_blue.png */; };
+		B41777D3189BDD3C0052119A /* tag_green_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777CC189BDD3C0052119A /* tag_green_selected.png */; };
+		B41777D7189BDD6A0052119A /* tag-header-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777D5189BDD6A0052119A /* tag-header-icon.png */; };
+		B41777D8189BDD6A0052119A /* tag-header-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B41777D6189BDD6A0052119A /* tag-header-icon@2x.png */; };
+		B42AFB5918AD15C20050183E /* tag_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B42AFB5718AD15C20050183E /* tag_green@2x.png */; };
+		B42AFB5B18AD16030050183E /* tag_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B42AFB5A18AD16030050183E /* tag_green.png */; };
+		B42AFB5D18AD164A0050183E /* tag_black_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B42AFB5C18AD164A0050183E /* tag_black_selected@2x.png */; };
+		B42AFB5F18AD16780050183E /* tag_blue_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B42AFB5E18AD16780050183E /* tag_blue_selected@2x.png */; };
+		B42AFB6118AD16940050183E /* tag_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B42AFB6018AD16940050183E /* tag_blue@2x.png */; };
+		B43AEBF018316A1000AC3974 /* GOSettingsGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43AEBEF18316A1000AC3974 /* GOSettingsGeneralViewController.m */; };
+		B44485881832B7AE00A17040 /* GOUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44485871832B7AE00A17040 /* GOUserListViewController.m */; };
+		B444858B1832B7C400A17040 /* GOSettingsNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B444858A1832B7C400A17040 /* GOSettingsNotificationsViewController.m */; };
+		B483B301193DC957004C07EF /* GO_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = B483B300193DC957004C07EF /* GO_Back.png */; };
+		B4BBA7CA194092F600D44413 /* GOLaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BBA7C9194092F600D44413 /* GOLaunch@2x.png */; };
+		B4BBA7CC1940937F00D44413 /* gobi_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BBA7CB1940937F00D44413 /* gobi_logo.png */; };
+		B4F5002419093BC40049C5F1 /* user-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F5002219093BC40049C5F1 /* user-icon.png */; };
+		B4F5002519093BC40049C5F1 /* user-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4F5002319093BC40049C5F1 /* user-icon@2x.png */; };
+		B4F5002919094DA40049C5F1 /* GOUserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5002819094DA40049C5F1 /* GOUserDetailViewController.m */; };
+		B4F5003019099D0C0049C5F1 /* GONewUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5002F19099D0C0049C5F1 /* GONewUserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93C63601181A5CEF00AD2B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93C635D3181A5CEE00AD2B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C635DA181A5CEE00AD2B00;
+			remoteInfo = Gobi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930B6E03183B72BD0092DA0E /* GOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOLoginViewController.h; sourceTree = "<group>"; };
+		930B6E04183B72BD0092DA0E /* GOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOLoginViewController.m; sourceTree = "<group>"; };
+		931CCA8718D0E29700166212 /* GORuleConditionAssociationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleConditionAssociationObject.h; sourceTree = "<group>"; };
+		931CCA8818D0E29700166212 /* GORuleConditionAssociationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleConditionAssociationObject.m; sourceTree = "<group>"; };
+		931CCA8A18D0E46300166212 /* GORuleStateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleStateObject.h; sourceTree = "<group>"; };
+		931CCA8B18D0E46300166212 /* GORuleStateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleStateObject.m; sourceTree = "<group>"; };
+		931CCA8D18D0EF0E00166212 /* GOResourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOResourceObject.h; sourceTree = "<group>"; };
+		931CCA8E18D0EF0E00166212 /* GOResourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOResourceObject.m; sourceTree = "<group>"; };
+		931CCA9118D130E500166212 /* GORuleSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleSettingsTableViewCell.h; sourceTree = "<group>"; };
+		931CCA9218D130E500166212 /* GORuleSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleSettingsTableViewCell.m; sourceTree = "<group>"; };
+		933BE827183EA6C9003A087F /* GODeviceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODeviceObject.h; sourceTree = "<group>"; };
+		933BE828183EA6C9003A087F /* GODeviceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODeviceObject.m; sourceTree = "<group>"; };
+		934A2FDC19226D3A007CDECB /* GOLaunch-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GOLaunch-568h@2x.png"; path = "Images.xcassets/LaunchImage.launchimage/GOLaunch-568h@2x.png"; sourceTree = "<group>"; };
+		934BBCE718893F9A001E516C /* GOGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGroupListViewController.h; sourceTree = "<group>"; };
+		934BBCE818893F9A001E516C /* GOGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGroupListViewController.m; sourceTree = "<group>"; };
+		934BBCEA1889D698001E516C /* GOGroupListSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GOGroupListSectionHeader.xib; sourceTree = "<group>"; };
+		935418EB18B16071009104E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		935418EE18B1625F009104E6 /* GOAddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOAddDeviceViewController.h; sourceTree = "<group>"; };
+		935418EF18B1625F009104E6 /* GOAddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOAddDeviceViewController.m; sourceTree = "<group>"; };
+		93545FA4187B5A01009FC35D /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		93545FA7187B5AC8009FC35D /* device-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device-icon.png"; sourceTree = "<group>"; };
+		93545FA8187B5AC8009FC35D /* device-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device-icon@2x.png"; sourceTree = "<group>"; };
+		93545FAB187B5AC8009FC35D /* settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon.png"; sourceTree = "<group>"; };
+		936F3343187F4E31004CFB6E /* GODeviceListSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GODeviceListSectionHeader.xib; sourceTree = "<group>"; };
+		9371D36318350A4F0041E88C /* GOMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMenuCell.h; sourceTree = "<group>"; };
+		9371D36418350A4F0041E88C /* GOMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMenuCell.m; sourceTree = "<group>"; };
+		9371D36A18351A820041E88C /* MenuTableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewHeader.xib; sourceTree = "<group>"; };
+		9371D36E18351CCA0041E88C /* GOTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTableViewHeader.h; sourceTree = "<group>"; };
+		9371D36F18351CCA0041E88C /* GOTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTableViewHeader.m; sourceTree = "<group>"; };
+		93770DFA182BE93500675091 /* GOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSettingsViewController.h; sourceTree = "<group>"; };
+		93770DFB182BE93500675091 /* GOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSettingsViewController.m; sourceTree = "<group>"; };
+		937D730A19194D9600A08908 /* GOStartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOStartUpViewController.h; sourceTree = "<group>"; };
+		937D730B19194D9600A08908 /* GOStartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOStartUpViewController.m; sourceTree = "<group>"; };
+		93930AEC18520A95001264CA /* GODeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODeviceDetailViewController.h; sourceTree = "<group>"; };
+		93930AED18520A95001264CA /* GODeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODeviceDetailViewController.m; sourceTree = "<group>"; };
+		93930AEF18520AA9001264CA /* GOSensorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSensorDetailViewController.h; sourceTree = "<group>"; };
+		93930AF018520AA9001264CA /* GOSensorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSensorDetailViewController.m; sourceTree = "<group>"; };
+		93A51EB0188D95A700FA3471 /* GOGroupObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGroupObject.h; sourceTree = "<group>"; };
+		93A51EB1188D95A700FA3471 /* GOGroupObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGroupObject.m; sourceTree = "<group>"; };
+		93A51EB3188DC3A700FA3471 /* GORuleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleObject.h; sourceTree = "<group>"; };
+		93A51EB4188DC3A700FA3471 /* GORuleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleObject.m; sourceTree = "<group>"; };
+		93BFFFBC1829195E00F2AC8A /* GOMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMainViewController.h; sourceTree = "<group>"; };
+		93BFFFBD1829195E00F2AC8A /* GOMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMainViewController.m; sourceTree = "<group>"; };
+		93BFFFC018291D4400F2AC8A /* GODeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODeviceListViewController.h; sourceTree = "<group>"; };
+		93BFFFC118291D4400F2AC8A /* GODeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODeviceListViewController.m; sourceTree = "<group>"; };
+		93BFFFC418291D8400F2AC8A /* GOTagListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOTagListViewController.h; sourceTree = "<group>"; };
+		93BFFFC518291D8400F2AC8A /* GOTagListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOTagListViewController.m; sourceTree = "<group>"; };
+		93C49F2F18CE3F2200300FA2 /* GOMeasurementObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOMeasurementObject.h; sourceTree = "<group>"; };
+		93C49F3018CE3F2200300FA2 /* GOMeasurementObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOMeasurementObject.m; sourceTree = "<group>"; };
+		93C635DB181A5CEE00AD2B00 /* Gobi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gobi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C635DE181A5CEE00AD2B00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93C635E0181A5CEE00AD2B00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93C635E2181A5CEE00AD2B00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93C635E6181A5CEE00AD2B00 /* Gobi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gobi-Info.plist"; sourceTree = "<group>"; };
+		93C635E8181A5CEE00AD2B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93C635EA181A5CEE00AD2B00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93C635EC181A5CEE00AD2B00 /* Gobi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gobi-Prefix.pch"; sourceTree = "<group>"; };
+		93C635ED181A5CEE00AD2B00 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		93C635EE181A5CEE00AD2B00 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
+		93C635F1181A5CEE00AD2B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93C635F6181A5CEF00AD2B00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93C635FC181A5CEF00AD2B00 /* GobiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GobiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C635FD181A5CEF00AD2B00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93C63605181A5CEF00AD2B00 /* GobiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GobiTests-Info.plist"; sourceTree = "<group>"; };
+		93C63607181A5CEF00AD2B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93C63609181A5CEF00AD2B00 /* GobiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GobiTests.m; sourceTree = "<group>"; };
+		93CDE8F518AC22BB004EBD8E /* GORuleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleListViewController.h; sourceTree = "<group>"; };
+		93CDE8F618AC22BB004EBD8E /* GORuleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleListViewController.m; sourceTree = "<group>"; };
+		93CDE8F818AC2430004EBD8E /* GORuleEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleEditViewController.h; sourceTree = "<group>"; };
+		93CDE8F918AC2430004EBD8E /* GORuleEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleEditViewController.m; sourceTree = "<group>"; };
+		93CDE8FB18AC2754004EBD8E /* GORuleStateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleStateListViewController.h; sourceTree = "<group>"; };
+		93CDE8FC18AC2754004EBD8E /* GORuleStateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleStateListViewController.m; sourceTree = "<group>"; };
+		93CDE8FF18AC28C3004EBD8E /* GORuleStateEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GORuleStateEditViewController.h; sourceTree = "<group>"; };
+		93CDE90018AC28C3004EBD8E /* GORuleStateEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GORuleStateEditViewController.m; sourceTree = "<group>"; };
+		93E5DCD218B19926000A8800 /* GOGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGraphView.h; sourceTree = "<group>"; };
+		93E5DCD318B19926000A8800 /* GOGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGraphView.m; sourceTree = "<group>"; };
+		93F00B37184783A300C5182E /* GOCustomObjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCustomObjectCell.h; sourceTree = "<group>"; };
+		93F00B38184783A300C5182E /* GOCustomObjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCustomObjectCell.m; sourceTree = "<group>"; };
+		93F00B3A184789C400C5182E /* GOUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOUserObject.h; sourceTree = "<group>"; };
+		93F00B3B184789C400C5182E /* GOUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOUserObject.m; sourceTree = "<group>"; };
+		93F2A384189B0A7100DE10AB /* GOHeaderTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOHeaderTextCell.h; sourceTree = "<group>"; };
+		93F2A385189B0A7100DE10AB /* GOHeaderTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOHeaderTextCell.m; sourceTree = "<group>"; };
+		93F2EAF81899C80D00788FD1 /* GOGroupEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGroupEditViewController.h; sourceTree = "<group>"; };
+		93F2EAF91899C80D00788FD1 /* GOGroupEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGroupEditViewController.m; sourceTree = "<group>"; };
+		93F2EAFB1899C83400788FD1 /* GOResourceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOResourceListViewController.h; sourceTree = "<group>"; };
+		93F2EAFC1899C83400788FD1 /* GOResourceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOResourceListViewController.m; sourceTree = "<group>"; };
+		93F52838194A22850001C58B /* GONotificationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONotificationObject.h; sourceTree = "<group>"; };
+		93F52839194A22850001C58B /* GONotificationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONotificationObject.m; sourceTree = "<group>"; };
+		93F7D7281830F9AC00C8B6CA /* GOWebservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOWebservice.h; sourceTree = "<group>"; };
+		93F7D7291830F9AC00C8B6CA /* GOWebservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOWebservice.m; sourceTree = "<group>"; };
+		93F7D72B1831046500C8B6CA /* GOJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOJSONParser.h; sourceTree = "<group>"; };
+		93F7D72C1831046500C8B6CA /* GOJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOJSONParser.m; sourceTree = "<group>"; };
+		B40C108F1907F4E600FC7F8F /* rule-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rule-icon.png"; sourceTree = "<group>"; };
+		B40C10901907F4E600FC7F8F /* rule-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rule-icon@2x.png"; sourceTree = "<group>"; };
+		B40C10931907F5D600FC7F8F /* group-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group-icon.png"; sourceTree = "<group>"; };
+		B40C10941907F5D600FC7F8F /* group-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group-icon@2x.png"; sourceTree = "<group>"; };
+		B41777BF189BDC910052119A /* logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout@2x.png"; sourceTree = "<group>"; };
+		B41777C1189BDCD20052119A /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		B41777C2189BDCD20052119A /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		B41777C5189BDD090052119A /* settings-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon@2x.png"; sourceTree = "<group>"; };
+		B41777C7189BDD3C0052119A /* tag_black_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_black_selected.png; sourceTree = "<group>"; };
+		B41777C8189BDD3C0052119A /* tag_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_black.png; sourceTree = "<group>"; };
+		B41777C9189BDD3C0052119A /* tag_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_black@2x.png"; sourceTree = "<group>"; };
+		B41777CA189BDD3C0052119A /* tag_blue_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_blue_selected.png; sourceTree = "<group>"; };
+		B41777CB189BDD3C0052119A /* tag_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_blue.png; sourceTree = "<group>"; };
+		B41777CC189BDD3C0052119A /* tag_green_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_green_selected.png; sourceTree = "<group>"; };
+		B41777D5189BDD6A0052119A /* tag-header-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag-header-icon.png"; sourceTree = "<group>"; };
+		B41777D6189BDD6A0052119A /* tag-header-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag-header-icon@2x.png"; sourceTree = "<group>"; };
+		B42AFB5718AD15C20050183E /* tag_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_green@2x.png"; sourceTree = "<group>"; };
+		B42AFB5A18AD16030050183E /* tag_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_green.png; sourceTree = "<group>"; };
+		B42AFB5C18AD164A0050183E /* tag_black_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_black_selected@2x.png"; sourceTree = "<group>"; };
+		B42AFB5E18AD16780050183E /* tag_blue_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_blue_selected@2x.png"; sourceTree = "<group>"; };
+		B42AFB6018AD16940050183E /* tag_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tag_blue@2x.png"; sourceTree = "<group>"; };
+		B43AEBEE18316A1000AC3974 /* GOSettingsGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSettingsGeneralViewController.h; sourceTree = "<group>"; };
+		B43AEBEF18316A1000AC3974 /* GOSettingsGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSettingsGeneralViewController.m; sourceTree = "<group>"; };
+		B44485861832B7AE00A17040 /* GOUserListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOUserListViewController.h; sourceTree = "<group>"; };
+		B44485871832B7AE00A17040 /* GOUserListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOUserListViewController.m; sourceTree = "<group>"; };
+		B44485891832B7C400A17040 /* GOSettingsNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOSettingsNotificationsViewController.h; sourceTree = "<group>"; };
+		B444858A1832B7C400A17040 /* GOSettingsNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOSettingsNotificationsViewController.m; sourceTree = "<group>"; };
+		B483B300193DC957004C07EF /* GO_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GO_Back.png; sourceTree = "<group>"; };
+		B4BBA7C9194092F600D44413 /* GOLaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GOLaunch@2x.png"; sourceTree = "<group>"; };
+		B4BBA7CB1940937F00D44413 /* gobi_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gobi_logo.png; sourceTree = "<group>"; };
+		B4F5002219093BC40049C5F1 /* user-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-icon.png"; sourceTree = "<group>"; };
+		B4F5002319093BC40049C5F1 /* user-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-icon@2x.png"; sourceTree = "<group>"; };
+		B4F5002719094DA40049C5F1 /* GOUserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOUserDetailViewController.h; sourceTree = "<group>"; };
+		B4F5002819094DA40049C5F1 /* GOUserDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOUserDetailViewController.m; sourceTree = "<group>"; };
+		B4F5002E19099D0C0049C5F1 /* GONewUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GONewUserViewController.h; sourceTree = "<group>"; };
+		B4F5002F19099D0C0049C5F1 /* GONewUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GONewUserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C635D8181A5CEE00AD2B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935418EC18B16071009104E6 /* AVFoundation.framework in Frameworks */,
+				93C635E1181A5CEE00AD2B00 /* CoreGraphics.framework in Frameworks */,
+				93C635E3181A5CEE00AD2B00 /* UIKit.framework in Frameworks */,
+				93C635DF181A5CEE00AD2B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C635F9181A5CEF00AD2B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C635FE181A5CEF00AD2B00 /* XCTest.framework in Frameworks */,
+				93C63600181A5CEF00AD2B00 /* UIKit.framework in Frameworks */,
+				93C635FF181A5CEF00AD2B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930B6E02183B72850092DA0E /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5002D19099CE70049C5F1 /* Registration */,
+				930B6E03183B72BD0092DA0E /* GOLoginViewController.h */,
+				930B6E04183B72BD0092DA0E /* GOLoginViewController.m */,
+				937D730A19194D9600A08908 /* GOStartUpViewController.h */,
+				937D730B19194D9600A08908 /* GOStartUpViewController.m */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		931CCA9018D130C200166212 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				931CCA9118D130E500166212 /* GORuleSettingsTableViewCell.h */,
+				931CCA9218D130E500166212 /* GORuleSettingsTableViewCell.m */,
+			);
+			name = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		931CCA9418D1320F00166212 /* ResourceListView */ = {
+			isa = PBXGroup;
+			children = (
+				93F2EAFB1899C83400788FD1 /* GOResourceListViewController.h */,
+				93F2EAFC1899C83400788FD1 /* GOResourceListViewController.m */,
+			);
+			name = ResourceListView;
+			sourceTree = "<group>";
+		};
+		933BE826183EA6AC003A087F /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				933BE827183EA6C9003A087F /* GODeviceObject.h */,
+				933BE828183EA6C9003A087F /* GODeviceObject.m */,
+				93F00B3A184789C400C5182E /* GOUserObject.h */,
+				93F00B3B184789C400C5182E /* GOUserObject.m */,
+				931CCA8D18D0EF0E00166212 /* GOResourceObject.h */,
+				931CCA8E18D0EF0E00166212 /* GOResourceObject.m */,
+				93A51EB0188D95A700FA3471 /* GOGroupObject.h */,
+				93A51EB1188D95A700FA3471 /* GOGroupObject.m */,
+				93C49F2F18CE3F2200300FA2 /* GOMeasurementObject.h */,
+				93C49F3018CE3F2200300FA2 /* GOMeasurementObject.m */,
+				93A51EB3188DC3A700FA3471 /* GORuleObject.h */,
+				93A51EB4188DC3A700FA3471 /* GORuleObject.m */,
+				931CCA8A18D0E46300166212 /* GORuleStateObject.h */,
+				931CCA8B18D0E46300166212 /* GORuleStateObject.m */,
+				931CCA8718D0E29700166212 /* GORuleConditionAssociationObject.h */,
+				931CCA8818D0E29700166212 /* GORuleConditionAssociationObject.m */,
+				93F52838194A22850001C58B /* GONotificationObject.h */,
+				93F52839194A22850001C58B /* GONotificationObject.m */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		934A2FDB19226D17007CDECB /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				B483B300193DC957004C07EF /* GO_Back.png */,
+				934A2FDC19226D3A007CDECB /* GOLaunch-568h@2x.png */,
+				B4BBA7C9194092F600D44413 /* GOLaunch@2x.png */,
+			);
+			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		934BBCE618893F59001E516C /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				934BBCE718893F9A001E516C /* GOGroupListViewController.h */,
+				934BBCE818893F9A001E516C /* GOGroupListViewController.m */,
+				93F2EAF81899C80D00788FD1 /* GOGroupEditViewController.h */,
+				93F2EAF91899C80D00788FD1 /* GOGroupEditViewController.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		935418ED18B16226009104E6 /* AddDevice */ = {
+			isa = PBXGroup;
+			children = (
+				935418EE18B1625F009104E6 /* GOAddDeviceViewController.h */,
+				935418EF18B1625F009104E6 /* GOAddDeviceViewController.m */,
+			);
+			name = AddDevice;
+			sourceTree = "<group>";
+		};
+		9371D3591835003B0041E88C /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				934A2FDB19226D17007CDECB /* Launch Images */,
+				9371D35A1835004B0041E88C /* Icons */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		9371D35A1835004B0041E88C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5002219093BC40049C5F1 /* user-icon.png */,
+				B4F5002319093BC40049C5F1 /* user-icon@2x.png */,
+				B40C10931907F5D600FC7F8F /* group-icon.png */,
+				B40C10941907F5D600FC7F8F /* group-icon@2x.png */,
+				B40C108F1907F4E600FC7F8F /* rule-icon.png */,
+				B40C10901907F4E600FC7F8F /* rule-icon@2x.png */,
+				B41777D6189BDD6A0052119A /* tag-header-icon@2x.png */,
+				B41777D5189BDD6A0052119A /* tag-header-icon.png */,
+				B41777C2189BDCD20052119A /* menu-icon@2x.png */,
+				B4BBA7CB1940937F00D44413 /* gobi_logo.png */,
+				B41777C1189BDCD20052119A /* menu-icon.png */,
+				B42AFB5718AD15C20050183E /* tag_green@2x.png */,
+				B42AFB5A18AD16030050183E /* tag_green.png */,
+				B41777CC189BDD3C0052119A /* tag_green_selected.png */,
+				B41777C9189BDD3C0052119A /* tag_black@2x.png */,
+				B41777C8189BDD3C0052119A /* tag_black.png */,
+				B42AFB5C18AD164A0050183E /* tag_black_selected@2x.png */,
+				B41777C7189BDD3C0052119A /* tag_black_selected.png */,
+				B42AFB6018AD16940050183E /* tag_blue@2x.png */,
+				B41777CB189BDD3C0052119A /* tag_blue.png */,
+				B42AFB5E18AD16780050183E /* tag_blue_selected@2x.png */,
+				B41777CA189BDD3C0052119A /* tag_blue_selected.png */,
+				93545FA8187B5AC8009FC35D /* device-icon@2x.png */,
+				93545FA7187B5AC8009FC35D /* device-icon.png */,
+				B41777C5189BDD090052119A /* settings-icon@2x.png */,
+				93545FAB187B5AC8009FC35D /* settings-icon.png */,
+				B41777BF189BDC910052119A /* logout@2x.png */,
+				93545FA4187B5A01009FC35D /* logout.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9371D36118350A0F0041E88C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9371D36218350A2E0041E88C /* TableView */,
+				93BFFFBC1829195E00F2AC8A /* GOMainViewController.h */,
+				93BFFFBD1829195E00F2AC8A /* GOMainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		9371D36218350A2E0041E88C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				9371D36A18351A820041E88C /* MenuTableViewHeader.xib */,
+				9371D36E18351CCA0041E88C /* GOTableViewHeader.h */,
+				9371D36F18351CCA0041E88C /* GOTableViewHeader.m */,
+				9371D36318350A4F0041E88C /* GOMenuCell.h */,
+				9371D36418350A4F0041E88C /* GOMenuCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		93770DF9182BE91900675091 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				93770DFA182BE93500675091 /* GOSettingsViewController.h */,
+				93770DFB182BE93500675091 /* GOSettingsViewController.m */,
+				B43AEBEE18316A1000AC3974 /* GOSettingsGeneralViewController.h */,
+				B43AEBEF18316A1000AC3974 /* GOSettingsGeneralViewController.m */,
+				B44485891832B7C400A17040 /* GOSettingsNotificationsViewController.h */,
+				B444858A1832B7C400A17040 /* GOSettingsNotificationsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		93930AEB18520A65001264CA /* DetailScreens */ = {
+			isa = PBXGroup;
+			children = (
+				93930AEC18520A95001264CA /* GODeviceDetailViewController.h */,
+				93930AED18520A95001264CA /* GODeviceDetailViewController.m */,
+			);
+			name = DetailScreens;
+			sourceTree = "<group>";
+		};
+		93A51EAF188D906000FA3471 /* Sensor & Acutators */ = {
+			isa = PBXGroup;
+			children = (
+				93930AEF18520AA9001264CA /* GOSensorDetailViewController.h */,
+				93930AF018520AA9001264CA /* GOSensorDetailViewController.m */,
+				93E5DCD218B19926000A8800 /* GOGraphView.h */,
+				93E5DCD318B19926000A8800 /* GOGraphView.m */,
+			);
+			name = "Sensor & Acutators";
+			sourceTree = "<group>";
+		};
+		93BFFFBF1829197000F2AC8A /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				93930AEB18520A65001264CA /* DetailScreens */,
+				93BFFFC018291D4400F2AC8A /* GODeviceListViewController.h */,
+				93BFFFC118291D4400F2AC8A /* GODeviceListViewController.m */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		93BFFFC318291D7500F2AC8A /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				93BFFFC418291D8400F2AC8A /* GOTagListViewController.h */,
+				93BFFFC518291D8400F2AC8A /* GOTagListViewController.m */,
+			);
+			name = Tags;
+			sourceTree = "<group>";
+		};
+		93C635D2181A5CEE00AD2B00 = {
+			isa = PBXGroup;
+			children = (
+				93C635E4181A5CEE00AD2B00 /* Gobi */,
+				93C63603181A5CEF00AD2B00 /* GobiTests */,
+				93C635DD181A5CEE00AD2B00 /* Frameworks */,
+				93C635DC181A5CEE00AD2B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C635DC181A5CEE00AD2B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C635DB181A5CEE00AD2B00 /* Gobi.app */,
+				93C635FC181A5CEF00AD2B00 /* GobiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C635DD181A5CEE00AD2B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935418EB18B16071009104E6 /* AVFoundation.framework */,
+				93C635DE181A5CEE00AD2B00 /* Foundation.framework */,
+				93C635E0181A5CEE00AD2B00 /* CoreGraphics.framework */,
+				93C635E2181A5CEE00AD2B00 /* UIKit.framework */,
+				93C635FD181A5CEF00AD2B00 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93C635E4181A5CEE00AD2B00 /* Gobi */ = {
+			isa = PBXGroup;
+			children = (
+				93F7D7271830F98900C8B6CA /* Webservice/JSONParser */,
+				930B6E02183B72850092DA0E /* Start */,
+				935418ED18B16226009104E6 /* AddDevice */,
+				93770DF9182BE91900675091 /* Settings */,
+				93CDE8F118AC227F004EBD8E /* Rules */,
+				B40C10981907F77C00FC7F8F /* Users */,
+				931CCA9418D1320F00166212 /* ResourceListView */,
+				93BFFFC318291D7500F2AC8A /* Tags */,
+				934BBCE618893F59001E516C /* Groups */,
+				93BFFFBF1829197000F2AC8A /* Devices */,
+				93A51EAF188D906000FA3471 /* Sensor & Acutators */,
+				9371D36118350A0F0041E88C /* Main */,
+				93F00B361847838C00C5182E /* TableViewCells & Header */,
+				93C635ED181A5CEE00AD2B00 /* GOAppDelegate.h */,
+				93C635EE181A5CEE00AD2B00 /* GOAppDelegate.m */,
+				93C635F0181A5CEE00AD2B00 /* Main.storyboard */,
+				93C635F6181A5CEF00AD2B00 /* Images.xcassets */,
+				9371D3591835003B0041E88C /* Ressources */,
+				93C635E5181A5CEE00AD2B00 /* Supporting Files */,
+			);
+			path = Gobi;
+			sourceTree = "<group>";
+		};
+		93C635E5181A5CEE00AD2B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C635E6181A5CEE00AD2B00 /* Gobi-Info.plist */,
+				93C635E7181A5CEE00AD2B00 /* InfoPlist.strings */,
+				93C635EA181A5CEE00AD2B00 /* main.m */,
+				93C635EC181A5CEE00AD2B00 /* Gobi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93C63603181A5CEF00AD2B00 /* GobiTests */ = {
+			isa = PBXGroup;
+			children = (
+				93C63609181A5CEF00AD2B00 /* GobiTests.m */,
+				93C63604181A5CEF00AD2B00 /* Supporting Files */,
+			);
+			path = GobiTests;
+			sourceTree = "<group>";
+		};
+		93C63604181A5CEF00AD2B00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C63605181A5CEF00AD2B00 /* GobiTests-Info.plist */,
+				93C63606181A5CEF00AD2B00 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93CDE8F118AC227F004EBD8E /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				931CCA9018D130C200166212 /* TableView Cells */,
+				93CDE8FE18AC289A004EBD8E /* Rule Settings */,
+				93CDE8F518AC22BB004EBD8E /* GORuleListViewController.h */,
+				93CDE8F618AC22BB004EBD8E /* GORuleListViewController.m */,
+				93CDE8F818AC2430004EBD8E /* GORuleEditViewController.h */,
+				93CDE8F918AC2430004EBD8E /* GORuleEditViewController.m */,
+			);
+			name = Rules;
+			sourceTree = "<group>";
+		};
+		93CDE8FE18AC289A004EBD8E /* Rule Settings */ = {
+			isa = PBXGroup;
+			children = (
+				93CDE8FB18AC2754004EBD8E /* GORuleStateListViewController.h */,
+				93CDE8FC18AC2754004EBD8E /* GORuleStateListViewController.m */,
+				93CDE8FF18AC28C3004EBD8E /* GORuleStateEditViewController.h */,
+				93CDE90018AC28C3004EBD8E /* GORuleStateEditViewController.m */,
+			);
+			name = "Rule Settings";
+			sourceTree = "<group>";
+		};
+		93F00B361847838C00C5182E /* TableViewCells & Header */ = {
+			isa = PBXGroup;
+			children = (
+				93F2A384189B0A7100DE10AB /* GOHeaderTextCell.h */,
+				93F2A385189B0A7100DE10AB /* GOHeaderTextCell.m */,
+				93F00B37184783A300C5182E /* GOCustomObjectCell.h */,
+				93F00B38184783A300C5182E /* GOCustomObjectCell.m */,
+				936F3343187F4E31004CFB6E /* GODeviceListSectionHeader.xib */,
+				934BBCEA1889D698001E516C /* GOGroupListSectionHeader.xib */,
+			);
+			name = "TableViewCells & Header";
+			sourceTree = "<group>";
+		};
+		93F7D7271830F98900C8B6CA /* Webservice/JSONParser */ = {
+			isa = PBXGroup;
+			children = (
+				933BE826183EA6AC003A087F /* DataModels */,
+				93F7D7281830F9AC00C8B6CA /* GOWebservice.h */,
+				93F7D7291830F9AC00C8B6CA /* GOWebservice.m */,
+				93F7D72B1831046500C8B6CA /* GOJSONParser.h */,
+				93F7D72C1831046500C8B6CA /* GOJSONParser.m */,
+			);
+			name = Webservice/JSONParser;
+			sourceTree = "<group>";
+		};
+		B40C10981907F77C00FC7F8F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5002619094D250049C5F1 /* DetailScreens */,
+				B44485861832B7AE00A17040 /* GOUserListViewController.h */,
+				B44485871832B7AE00A17040 /* GOUserListViewController.m */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		B4F5002619094D250049C5F1 /* DetailScreens */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5002719094DA40049C5F1 /* GOUserDetailViewController.h */,
+				B4F5002819094DA40049C5F1 /* GOUserDetailViewController.m */,
+			);
+			name = DetailScreens;
+			sourceTree = "<group>";
+		};
+		B4F5002D19099CE70049C5F1 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B4F5002E19099D0C0049C5F1 /* GONewUserViewController.h */,
+				B4F5002F19099D0C0049C5F1 /* GONewUserViewController.m */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C635DA181A5CEE00AD2B00 /* Gobi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C6360D181A5CEF00AD2B00 /* Build configuration list for PBXNativeTarget "Gobi" */;
+			buildPhases = (
+				93C635D7181A5CEE00AD2B00 /* Sources */,
+				93C635D8181A5CEE00AD2B00 /* Frameworks */,
+				93C635D9181A5CEE00AD2B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gobi;
+			productName = Gobi;
+			productReference = 93C635DB181A5CEE00AD2B00 /* Gobi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93C635FB181A5CEF00AD2B00 /* GobiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C63610181A5CEF00AD2B00 /* Build configuration list for PBXNativeTarget "GobiTests" */;
+			buildPhases = (
+				93C635F8181A5CEF00AD2B00 /* Sources */,
+				93C635F9181A5CEF00AD2B00 /* Frameworks */,
+				93C635FA181A5CEF00AD2B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C63602181A5CEF00AD2B00 /* PBXTargetDependency */,
+			);
+			name = GobiTests;
+			productName = GobiTests;
+			productReference = 93C635FC181A5CEF00AD2B00 /* GobiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C635D3181A5CEE00AD2B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Gobi;
+				TargetAttributes = {
+					93C635DA181A5CEE00AD2B00 = {
+						DevelopmentTeam = 3NJ7282VG2;
+					};
+					93C635FB181A5CEF00AD2B00 = {
+						TestTargetID = 93C635DA181A5CEE00AD2B00;
+					};
+				};
+			};
+			buildConfigurationList = 93C635D6181A5CEE00AD2B00 /* Build configuration list for PBXProject "Gobi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93C635D2181A5CEE00AD2B00;
+			productRefGroup = 93C635DC181A5CEE00AD2B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C635DA181A5CEE00AD2B00 /* Gobi */,
+				93C635FB181A5CEF00AD2B00 /* GobiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C635D9181A5CEE00AD2B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936F3344187F4E31004CFB6E /* GODeviceListSectionHeader.xib in Resources */,
+				B4F5002519093BC40049C5F1 /* user-icon@2x.png in Resources */,
+				B41777C4189BDCD20052119A /* menu-icon@2x.png in Resources */,
+				B40C10911907F4E600FC7F8F /* rule-icon.png in Resources */,
+				B42AFB5F18AD16780050183E /* tag_blue_selected@2x.png in Resources */,
+				B41777D3189BDD3C0052119A /* tag_green_selected.png in Resources */,
+				B41777D2189BDD3C0052119A /* tag_blue.png in Resources */,
+				B41777D7189BDD6A0052119A /* tag-header-icon.png in Resources */,
+				93545FB1187B5AC8009FC35D /* device-icon.png in Resources */,
+				9371D36B18351A820041E88C /* MenuTableViewHeader.xib in Resources */,
+				B41777CE189BDD3C0052119A /* tag_black_selected.png in Resources */,
+				93C635F7181A5CEF00AD2B00 /* Images.xcassets in Resources */,
+				B483B301193DC957004C07EF /* GO_Back.png in Resources */,
+				934A2FDE19226D3A007CDECB /* GOLaunch-568h@2x.png in Resources */,
+				B4BBA7CC1940937F00D44413 /* gobi_logo.png in Resources */,
+				B42AFB5D18AD164A0050183E /* tag_black_selected@2x.png in Resources */,
+				B42AFB5918AD15C20050183E /* tag_green@2x.png in Resources */,
+				B41777D1189BDD3C0052119A /* tag_blue_selected.png in Resources */,
+				93545FB5187B5AC8009FC35D /* settings-icon.png in Resources */,
+				B41777CF189BDD3C0052119A /* tag_black.png in Resources */,
+				93C635E9181A5CEE00AD2B00 /* InfoPlist.strings in Resources */,
+				934BBCEB1889D698001E516C /* GOGroupListSectionHeader.xib in Resources */,
+				B41777D8189BDD6A0052119A /* tag-header-icon@2x.png in Resources */,
+				B41777C0189BDC910052119A /* logout@2x.png in Resources */,
+				93545FB2187B5AC8009FC35D /* device-icon@2x.png in Resources */,
+				B4BBA7CA194092F600D44413 /* GOLaunch@2x.png in Resources */,
+				B4F5002419093BC40049C5F1 /* user-icon.png in Resources */,
+				B41777C6189BDD090052119A /* settings-icon@2x.png in Resources */,
+				B41777D0189BDD3C0052119A /* tag_black@2x.png in Resources */,
+				B40C10921907F4E600FC7F8F /* rule-icon@2x.png in Resources */,
+				B40C10951907F5D600FC7F8F /* group-icon.png in Resources */,
+				B42AFB5B18AD16030050183E /* tag_green.png in Resources */,
+				93545FA6187B5A01009FC35D /* logout.png in Resources */,
+				B40C10961907F5D600FC7F8F /* group-icon@2x.png in Resources */,
+				93C635F2181A5CEE00AD2B00 /* Main.storyboard in Resources */,
+				B42AFB6118AD16940050183E /* tag_blue@2x.png in Resources */,
+				B41777C3189BDCD20052119A /* menu-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C635FA181A5CEF00AD2B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C63608181A5CEF00AD2B00 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C635D7181A5CEE00AD2B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934BBCE918893F9A001E516C /* GOGroupListViewController.m in Sources */,
+				93F2A386189B0A7100DE10AB /* GOHeaderTextCell.m in Sources */,
+				931CCA8F18D0EF0E00166212 /* GOResourceObject.m in Sources */,
+				93BFFFC218291D4400F2AC8A /* GODeviceListViewController.m in Sources */,
+				93F7D72A1830F9AC00C8B6CA /* GOWebservice.m in Sources */,
+				93F5283A194A22850001C58B /* GONotificationObject.m in Sources */,
+				935418F018B1625F009104E6 /* GOAddDeviceViewController.m in Sources */,
+				930B6E05183B72BD0092DA0E /* GOLoginViewController.m in Sources */,
+				93F00B3C184789C400C5182E /* GOUserObject.m in Sources */,
+				93A51EB2188D95A700FA3471 /* GOGroupObject.m in Sources */,
+				93770DFC182BE93500675091 /* GOSettingsViewController.m in Sources */,
+				B4F5002919094DA40049C5F1 /* GOUserDetailViewController.m in Sources */,
+				B44485881832B7AE00A17040 /* GOUserListViewController.m in Sources */,
+				931CCA8C18D0E46300166212 /* GORuleStateObject.m in Sources */,
+				93C635EF181A5CEE00AD2B00 /* GOAppDelegate.m in Sources */,
+				93930AEE18520A95001264CA /* GODeviceDetailViewController.m in Sources */,
+				9371D36518350A4F0041E88C /* GOMenuCell.m in Sources */,
+				937D730C19194D9600A08908 /* GOStartUpViewController.m in Sources */,
+				93930AF118520AA9001264CA /* GOSensorDetailViewController.m in Sources */,
+				B43AEBF018316A1000AC3974 /* GOSettingsGeneralViewController.m in Sources */,
+				93CDE8FD18AC2754004EBD8E /* GORuleStateListViewController.m in Sources */,
+				93BFFFBE1829195E00F2AC8A /* GOMainViewController.m in Sources */,
+				B4F5003019099D0C0049C5F1 /* GONewUserViewController.m in Sources */,
+				933BE829183EA6C9003A087F /* GODeviceObject.m in Sources */,
+				93CDE8F718AC22BB004EBD8E /* GORuleListViewController.m in Sources */,
+				9371D37018351CCA0041E88C /* GOTableViewHeader.m in Sources */,
+				93C635EB181A5CEE00AD2B00 /* main.m in Sources */,
+				93F7D72D1831046500C8B6CA /* GOJSONParser.m in Sources */,
+				93F2EAFD1899C83400788FD1 /* GOResourceListViewController.m in Sources */,
+				93E5DCD418B19926000A8800 /* GOGraphView.m in Sources */,
+				93BFFFC618291D8500F2AC8A /* GOTagListViewController.m in Sources */,
+				93C49F3118CE3F2200300FA2 /* GOMeasurementObject.m in Sources */,
+				931CCA9318D130E500166212 /* GORuleSettingsTableViewCell.m in Sources */,
+				93CDE8FA18AC2430004EBD8E /* GORuleEditViewController.m in Sources */,
+				B444858B1832B7C400A17040 /* GOSettingsNotificationsViewController.m in Sources */,
+				93CDE90118AC28C3004EBD8E /* GORuleStateEditViewController.m in Sources */,
+				931CCA8918D0E29700166212 /* GORuleConditionAssociationObject.m in Sources */,
+				93A51EB5188DC3A700FA3471 /* GORuleObject.m in Sources */,
+				93F2EAFA1899C80D00788FD1 /* GOGroupEditViewController.m in Sources */,
+				93F00B39184783A300C5182E /* GOCustomObjectCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C635F8181A5CEF00AD2B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C6360A181A5CEF00AD2B00 /* GobiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93C63602181A5CEF00AD2B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93C635DA181A5CEE00AD2B00 /* Gobi */;
+			targetProxy = 93C63601181A5CEF00AD2B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93C635E7181A5CEE00AD2B00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C635E8181A5CEE00AD2B00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93C635F0181A5CEE00AD2B00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C635F1181A5CEE00AD2B00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93C63606181A5CEF00AD2B00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93C63607181A5CEF00AD2B00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93C6360B181A5CEF00AD2B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C6A0B576-A561-4ACC-B109-FB41D52BD25A";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93C6360C181A5CEF00AD2B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "C6A0B576-A561-4ACC-B109-FB41D52BD25A";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93C6360E181A5CEF00AD2B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobi/Gobi-Prefix.pch";
+				INFOPLIST_FILE = "Gobi/Gobi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9CF06F76-54E8-48A5-B033-E59B31A228F1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93C6360F181A5CEF00AD2B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobi/Gobi-Prefix.pch";
+				INFOPLIST_FILE = "Gobi/Gobi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9CF06F76-54E8-48A5-B033-E59B31A228F1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93C63611181A5CEF00AD2B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gobi.app/Gobi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobi/Gobi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GobiTests/GobiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93C63612181A5CEF00AD2B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gobi.app/Gobi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobi/Gobi-Prefix.pch";
+				INFOPLIST_FILE = "GobiTests/GobiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C635D6181A5CEE00AD2B00 /* Build configuration list for PBXProject "Gobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C6360B181A5CEF00AD2B00 /* Debug */,
+				93C6360C181A5CEF00AD2B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C6360D181A5CEF00AD2B00 /* Build configuration list for PBXNativeTarget "Gobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C6360E181A5CEF00AD2B00 /* Debug */,
+				93C6360F181A5CEF00AD2B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C63610181A5CEF00AD2B00 /* Build configuration list for PBXNativeTarget "GobiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C63611181A5CEF00AD2B00 /* Debug */,
+				93C63612181A5CEF00AD2B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93C635D3181A5CEE00AD2B00 /* Project object */;
+}
